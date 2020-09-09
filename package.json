@@ -1,0 +1,26 @@
+{
+  "name": "mongo-todo",
+  "version": "1.0.0",
+  "description": "MERN todo list",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "npx nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pjz987/mongo-todo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pjz987/mongo-todo/issues"
+  },
+  "homepage": "https://github.com/pjz987/mongo-todo#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.1",
+    "nodemon": "^2.0.4"
+  }
+}
